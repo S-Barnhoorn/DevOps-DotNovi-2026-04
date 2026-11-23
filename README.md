@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/user/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/user/repo)
+[![codecov](https://codecov.io/github/S-Barnhoorn/DevOps-DotNovi-2026-04/graph/badge.svg?token=DXWDDD7UAB)](https://codecov.io/github/S-Barnhoorn/DevOps-DotNovi-2026-04)
 
 # dotNOVI Application
 
