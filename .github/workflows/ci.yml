@@ -40,3 +40,13 @@ jobs:
           files: ./coverage/lcov.info
           fail_ci_if_error: true
 
+  deploy:
+    needs: [ build-and-test ]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to production
+        run: echo "Deploying..."
+
+
